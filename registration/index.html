@@ -11,9 +11,19 @@
     <meta name="KeyWords" content="Conference">
     <title>Registration | Conference Template</title>
     <style>
+        .banner {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; /* Ajuster la hauteur du conteneur à la hauteur de la fenêtre */
+        }
+
         .banner img {
-            width: 50vw; /* 50% of the viewport width */
-            height: auto; /* To maintain aspect ratio */
+            max-width: 100%; /* Pour éviter le débordement */
+            max-height: 100%; /* Pour que l'image occupe toute la hauteur disponible */
+            width: auto;
+            height: auto;
+            margin: auto; /* Centre l'image horizontalement et verticalement */
         }
     </style>
 </head>
