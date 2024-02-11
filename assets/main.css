@@ -117,8 +117,20 @@ table.flyers{width:800px;}
 td.flyer{white-space:nowrap; width:50%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
 td.sponsor img{width: 100%}
 
-footer{font-size:0.875em; margin-top:12em; text-align:center;}
+footer {
+    background-color: #f0f0f0; /* Couleur de fond du footer */
+    padding: 20px; /* Espacement interne du footer */
+}
 
+.sponsor-images {
+    display: flex; /* Utilisation de flexbox pour aligner les images côte à côte */
+    justify-content: space-around; /* Répartition égale de l'espace entre les images */
+}
+
+.sponsor-images img {
+    width: 200px; /* Dimensions des images */
+    height: auto; /* Hauteur automatique pour conserver les proportions */
+}
 /* My hacky way of making the site mobile-friendly */
 @media only screen and (max-width: 1100px) {
     h2{font-size:3.00em;}
