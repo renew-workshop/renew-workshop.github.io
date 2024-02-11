@@ -117,10 +117,6 @@ table.flyers{width:800px;}
 td.flyer{white-space:nowrap; width:50%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
 td.sponsor img{width: 100%}
 
-footer {
-    padding: 20px; /* Espacement interne du footer */
-}
-
 .sponsor-images {
     display: flex; /* Utilisation de flexbox pour aligner les images côte à côte */
     justify-content: space-around; /* Répartition égale de l'espace entre les images */
