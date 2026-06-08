@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<base href=".">
+<link rel="shortcut icon" type="image/png" href="assets/plan.png"/>
+<link rel="stylesheet" type="text/css" media="all" href="assets/main.css"/>
+<meta name="description" content="This is the Program page of the RENEW Workshop. It presents the workshop agenda and the list of accepted papers.">
+<title>RENEW - Program</title>
+<style>
+/* Light, self-contained styling for the program page */
+.agenda {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 900px;
+  margin: 1em 0;
+}
+.agenda th, .agenda td {
+  border: 1px solid #ccc;
+  padding: 8px 10px;
+  text-align: left;
+  vertical-align: top;
+}
+.agenda th {
+  background: #f0f0f0;
+}
+.agenda .time { white-space: nowrap; }
+.agenda .dur { text-align: center; white-space: nowrap; }
+.agenda tr.total td { font-weight: bold; background: #f7f7f7; }
+.papers li { margin-bottom: 0.9em; }
+.papers .authors { font-style: italic; }
+.keynote {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  align-items: flex-start;
+  margin: 1em 0;
+  max-width: 900px;
+}
+.keynote img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  flex-shrink: 0;
+}
+.keynote .ktext { flex: 1; min-width: 260px; }
+.keynote .kname { font-weight: bold; }
+.keynote .ktitle { font-style: italic; }
+</style>
+</head>
+<body>
+<div class="banner">
+<img src="assets/glasgow.jpeg" alt="Conference Template Banner">
+<div class="bottom-right">
+RENEW 2026 <br> June 16, 2026 - Bologna, Italy
+</div>
+</div>
+<table class="navigation">
+<tr>
+<td class="navigation">
+<a title="Conference Home Page" href="index">Home</a>
+</td>
+<td class="navigation">
+<a title="Call for Papers" href="cfp">CfP</a>
+</td>
+<td class="navigation">
+<a title="Committees" href="committees">Committees</a>
+</td>
+<td class="navigation">
+<a title="Paper Submission" href="submission">Paper Submission</a>
+</td>
+<td class="navigation">
+<a class="current" title="Program" href="program">Program</a>
+</td>
+</tr>
+</table>
+
+<h2>RENEW - Program</h2>
+
+<h4>Workshop Agenda</h4>
+<table class="agenda">
+<tr>
+<th class="time">Time (CEST)</th>
+<th>Activity</th>
+<th class="dur">Duration (min)</th>
+</tr>
+<tr>
+<td class="time">11:10 - 11:15</td>
+<td>Welcome and introduction to RENEW Workshop</td>
+<td class="dur">5</td>
+</tr>
+<tr>
+<td class="time">11:15 - 11:30</td>
+<td>Keynote speech by Prof. Julie McCann, Imperial College London: <i>CHEDDAR &amp; Sustainability</i></td>
+<td class="dur">15</td>
+</tr>
+<tr>
+<td class="time">11:30 - 11:40</td>
+<td>Network break</td>
+<td class="dur">10</td>
+</tr>
+<tr>
+<td class="time">11:40 - 13:00</td>
+<td>Technical Session: Oral Presentations (3 papers + 1 WiP) &times; 20 min</td>
+<td class="dur">80</td>
+</tr>
+<tr>
+<td class="time">13:00 - 13:35</td>
+<td>EcoNGN Project: Balancing Energy Efficiency, Carbon Impact, and Reliability in Future Networks, by Prof. Nagham Saeed, University of West London</td>
+<td class="dur">35</td>
+</tr>
+<tr>
+<td class="time">13:35 - 13:40</td>
+<td>Closing remarks</td>
+<td class="dur">5</td>
+</tr>
+<tr class="total">
+<td class="time">Total duration</td>
+<td></td>
+<td class="dur">150</td>
+</tr>
+</table>
+
+<h4>Keynote Speaker</h4>
+<div class="keynote">
+<img src="assets/mccann.jpg" alt="Prof. Julie McCann">
+<div class="ktext">
+<div class="kname">Prof. Julie McCann</div>
+<div>Imperial College London</div>
+<div class="ktitle">CHEDDAR &amp; Sustainability</div>
+<p>
+Julie McCann is Professor of Computer Systems in the Department of Computing at Imperial College London, where she leads the Adaptive Emergent Systems Engineering (AESE) group. Her research focuses on highly decentralised algorithms and protocols for wireless sensor networks, the Internet of Things, and cyber-physical systems, with an emphasis on low-power sensing and on resilient, secure, and energy-aware infrastructures for applications such as smart cities. She is a Fellow of the British Computer Society, a recipient of the Suffrage Science award (2018), and delivered the BCS/IET Turing Talk in 2022.
+</p>
+</div>
+</div>
+
+<h4>Accepted Papers</h4>
+<ul class="papers">
+<li>
+<b>WIP: Energy-Efficient LLM-based Serving Cluster Formulation in Cell-Free Massive MIMO</b><br>
+<span class="authors">Marcin Dominik Hoffmann, Pawel Kryszkiewicz</span>
+</li>
+<li>
+<b>Data-Driven Modeling of Energy Management Statuses and Statistical Evaluation of Coverage, Reliability and Time Metrics</b><br>
+<span class="authors">Sebastian Siegl, Kai-Steffen J. Hielscher</span>
+</li>
+<li>
+<b>Where Should Federated Learning Run? Design Rules for CCAM Cooperative Perception</b><br>
+<span class="authors">Mohamed Coulibaly, L&eacute;o Mendiboure, Hasnaa Aniss, Marc Lacoste, Sylvain Allio, Hugues Oudeville, Fabien Battello</span>
+</li>
+<li>
+<b>Towards Energy-Efficient Digital Twins for Multi-Microgrid Systems</b><br>
+<span class="authors">Pascaline Dagher, L&eacute;o Mendiboure, Johann Bourcier, Mikel Celaya-Echarri, Fran&ccedil;ois Fouquet</span>
+</li>
+</ul>
+
+<footer>
+<h4>Technical Sponsors</h4>
+<div class="sponsor-images">
+<a href="https://www.ieee.org/">
+<img src="assets/ieee.png" alt="IEEE">
+</a>
+<a href="https://www.comsoc.org/">
+<img src="assets/ieeecomsoc.png" alt="IEEECOMSOC">
+</a>
+</div>
+</footer>
+</body>
+</html>
